@@ -1,0 +1,32 @@
+body {
+    background-image: url(/imgs/math_bg.avif);
+    background-size: cover;
+}
+
+#converter {
+    background-color: rgba(89, 136, 254, 0.695);
+    border: 1px solid rgba(43, 46, 189, 0.707);
+    border-radius: 40px;
+    color: rgb(0, 13, 42);
+    height: 70px;
+    width: 400px;
+    margin: 150px 10px 40px 600px;
+    font-size: x-large;
+    transition: ease-out,50ms;
+}
+
+#converter:hover {
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+}
+
+#a1 {
+    padding: 20px 160px 20px 160px;
+    margin: 10px 20px 30px 600px;
+    background-color: rgba(66, 119, 254, 0.634);
+    border: 1px solid rgba(43, 46, 189, 0.707);
+    border-radius: 40px;
+    color: rgb(0, 13, 42);
+    text-decoration: none;
+    font-size: x-large;
+}
