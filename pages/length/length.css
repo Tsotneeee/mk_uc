@@ -8,9 +8,9 @@ body {
     border: 1px solid rgba(43, 46, 189, 0.707);
     border-radius: 40px;
     color: rgb(0, 13, 42);
-    height: 70px;
-    width: 400px;
-    margin: 150px 10px 40px 600px;
+    height: 80px;
+    width: 500px;
+    margin: 150px 10px 40px 10px;
     font-size: x-large;
     transition: ease-out,50ms;
 }
@@ -21,12 +21,19 @@ body {
 }
 
 #a1 {
-    padding: 20px 160px 20px 160px;
-    margin: 10px 20px 30px 600px;
+    padding: 30px 180px 30px 180px;
+    margin: 10px 20px 30px 10px;
     background-color: rgba(66, 119, 254, 0.634);
     border: 1px solid rgba(43, 46, 189, 0.707);
     border-radius: 40px;
     color: rgb(0, 13, 42);
     text-decoration: none;
     font-size: x-large;
+}
+
+@media only screen and (max-width: 780px) {
+    /* For mobile phones: */
+    [class*="mab1"] {
+        width: 20%;
+    }
 }
