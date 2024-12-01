@@ -63,9 +63,20 @@ footer {
     width: 1500px;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 780px) {
     /* For mobile phones: */
-    [class *="links"] {
-      width: 100%;
+    .linkdiv {
+        display: flex;
+        flex-direction: column;
+        align-content: left;
+        width: 340px;
+        margin-left: 20px;
+    }
+    .links {
+
+        width: 95%;
+    }
+    footer {
+        width: 415px;
     }
 }

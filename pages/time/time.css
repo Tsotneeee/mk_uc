@@ -4,6 +4,8 @@ body {
 }
 
 #converter {
+    position: absolute;
+    left: 500px;
     background-color: rgba(89, 136, 254, 0.695);
     border: 1px solid rgba(43, 46, 189, 0.707);
     border-radius: 40px;
@@ -13,8 +15,6 @@ body {
     margin: 150px 10px 40px 10px;
     font-size: x-large;
     transition: ease-out,50ms;
-
-
 }
 
 #converter:hover {
@@ -24,7 +24,11 @@ body {
 
 #a1 {
     position: absolute;
-    padding: 30px 180px 30px 180px;
+    left: 500px;
+    padding-top: 20px;
+    height: 60px;
+    width: 500px;
+    text-align: center;
     top: 250px;
     margin: 10px 20px 30px 10px;
     background-color: rgba(66, 119, 254, 0.634);
@@ -37,7 +41,10 @@ body {
 
 @media only screen and (max-width: 780px) {
     /* For mobile phones: */
-    [class*="mab1"] {
-        width: 20%;
+    #converter,
+    #a1 {
+        position: absolute;
+        left: 0px;
+        width: 400px;
     }
 }
