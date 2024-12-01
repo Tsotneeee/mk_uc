@@ -69,14 +69,13 @@ footer {
         display: flex;
         flex-direction: column;
         align-content: left;
-        width: 340px;
-        margin-left: 20px;
+        width: 330px;
+        margin-left: 0px;
     }
     .links {
-
-        width: 95%;
+        width: 90%;
     }
     footer {
-        width: 415px;
+        width: 330px;
     }
 }
